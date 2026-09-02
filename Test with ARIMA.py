@@ -34,7 +34,6 @@ y_pred = forecast_test.predicted_mean.values
 
 rmse = np.sqrt(mean_squared_error(test_data, y_pred))
 print(f"Test RMSE: {rmse:.6f}")
-# Test RMSE: 17.659843
 
 # 4 TOMORROW'S FORECAST
 forecast_tomorrow = results.get_forecast(steps=len(test_data) + 1)
