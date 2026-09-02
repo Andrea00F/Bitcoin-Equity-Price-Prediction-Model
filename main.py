@@ -1,3 +1,7 @@
+# Bitcoin price prediction using LInear Regression. 
+# Uses a sliding window of past normalised prices to predict the next day's price. 
+
+
 import yfinance as yf
 import pandas as pd
 import numpy as np
@@ -25,6 +29,7 @@ plt.grid()
 plt.show()
 
 # 3. PREPARE THE DATA
+# Scale prices to [0, 1] so the model isn't biased by raw price magnitude 
 prices = data['Close'].values.reshape(-1, 1)
 scaler = MinMaxScaler()
 prices_scaled = scaler.fit_transform(prices)
