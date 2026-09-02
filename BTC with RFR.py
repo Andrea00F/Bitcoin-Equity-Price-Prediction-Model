@@ -1,3 +1,6 @@
+# BTC stock price preditcion using RandomForestRegression with technical indicators (RSI, ATR, moving averages, momentum, ROC),
+# plus Monte Carlo simulation to estimate a range of likely outcomes instead of a single point forecast.
+
 import yfinance as yf
 import numpy as np
 import pandas as pd
