@@ -1,3 +1,7 @@
+# AAPL price forecast using ARIMA (AutoRegressive Integrated Moving Average).
+# Unlike the tree/linear models, ARIMA models the time series purely from its own past values, without external features.
+
+
 import yfinance as yf
 import numpy as np
 from statsmodels.tsa.arima.model import ARIMA
@@ -5,7 +9,7 @@ from sklearn.metrics import mean_squared_error
 
 # 1 DOWNLOAD THE DATA
 ticker = "AAPL"
-data = yf.download(ticker, start="2020-01-01", progress="False")
+data = yf.download(ticker, start="2020-01-01", progress=False)
 
 dates = data.index
 data = data.reset_index(drop=True)
