@@ -1,3 +1,7 @@
+# AAPL stock price preditcion using RandomForestRegression.
+# Same sliding-window approach as the Linear regression model, but with a non-linear ensemble model and a wider window to capture more context. 
+
+
 import yfinance as yf
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
@@ -44,7 +48,6 @@ y_test_pred = model.predict(X_test)
 train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))
 test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))
 print(f"Test RMSE: {train_rmse:.6f}")
-# Test RMSE: 0.004765
 
 
 # 6 FORECAST FOR TOMORROW
