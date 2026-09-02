@@ -55,7 +55,6 @@ y_pred = forecast_test.predicted_mean.values
 
 rmse_arimax = np.sqrt(mean_squared_error(test_price, y_pred))
 print(f"\n Test RMSE (ARIMAX): {rmse_arimax:.6f}")
-# Test RMSE (ARIMAX): 4.312031
 
 # 6. FORECAST FOR TOMORROW
 # Create the feature values for tomorrow (using the latest values)
