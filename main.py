@@ -67,7 +67,6 @@ test_r2 = r2_score(y_test, y_test_pred)
 print(f"\nMODEL RESULTS:")
 print(f"Train RMSE: {train_rmse:.6f} | Test RMSE: {test_rmse:.6f}")
 print(f"Train R²: {train_r2:.4f} | Test R²: {test_r2:.4f}")
-# Test RMSE: 0.016874
 
 # 8. DISPLAY PREDICTIONS
 plt.figure(figsize=(14, 6))
