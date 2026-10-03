@@ -22,6 +22,9 @@ performance across different market conditions.
 Performance was compared across models to evaluate predictive accuracy 
 under varying market conditions.
 
+The performance of each model was evaluated by calculating the RMSE. The results are:
+
+
 ## Technical Notes
 Resolved compatibility issues across the Python 3.14 data science stack 
 (pandas, scikit-learn, statsmodels), involving debugging of dependency 
