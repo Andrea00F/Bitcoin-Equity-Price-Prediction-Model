@@ -1,6 +1,6 @@
 # AAPL stock price preditcion using RandomForestRegression.
 # Same sliding-window approach as the Linear regression model, but with a non-linear ensemble model and a wider window to capture more context. 
-
+# Test size = 0.1
 
 import yfinance as yf
 import numpy as np
