@@ -1,6 +1,6 @@
 # AAPL price forecast using ARIMAX - ARIMA extended with exogenous variables (volume and moving averages) 
 # to see whether external features improve on the plain ARIMA baseline.
-
+# Test size = 0.1
 
 import yfinance as yf
 import numpy as np
