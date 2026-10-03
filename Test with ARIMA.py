@@ -1,6 +1,6 @@
 # AAPL price forecast using ARIMA (AutoRegressive Integrated Moving Average).
 # Unlike the tree/linear models, ARIMA models the time series purely from its own past values, without external features.
-
+# Test size = 0.1
 
 import yfinance as yf
 import numpy as np
