@@ -1,6 +1,6 @@
 # Bitcoin price prediction using LInear Regression. 
 # Uses a sliding window of past normalised prices to predict the next day's price. 
-
+# Test size = 0.2
 
 import yfinance as yf
 import pandas as pd
