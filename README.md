@@ -44,4 +44,4 @@ python main.py
 ```
 
 ## Status
-Ongoing project (2025–present).
+Ongoing project (2026–present).
