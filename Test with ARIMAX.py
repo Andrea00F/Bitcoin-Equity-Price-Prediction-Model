@@ -9,7 +9,7 @@ from statsmodels.tsa.arima.model import ARIMA
 from sklearn.metrics import mean_squared_error
 
 # 1. DOWNLOAD DATA
-ticker = "AAPL"
+ticker = "BTC"
 data = yf.download(ticker, start="2020-01-01", progress=False)
 
 dates = data.index
