@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
 # 1 DOWNLOAD DATA UP TO TODAY
-ticker = "AAPL"
+ticker = "BTC"
 data = yf.download(ticker, start="2020-01-01", progress=False)
 
 print(f"Data downloaded for {ticker}")
