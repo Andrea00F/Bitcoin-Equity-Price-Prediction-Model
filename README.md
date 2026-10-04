@@ -5,7 +5,7 @@ financial features with multiple predictive modeling approaches.
 
 ## Overview
 This project builds and compares statistical and machine learning models 
-to predict short-term price movements for Bitcoin and equities, evaluating 
+to predict the next day's closing price of Bitcoin and equities, evaluating 
 performance across different market conditions.
 
 ## Feature Engineering
